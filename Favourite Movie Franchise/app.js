@@ -25,9 +25,10 @@ for(let elem of listItem){
 // Creating Elements
 const ul = document.querySelector("ul");
 const li = document.createElement("li");
-li.innerText = "X-Men"
 
 ul.append(li)
+
+li.innerText = "X-Men"
 
 // Adding Elements
 const span = document.querySelector("span");
@@ -38,3 +39,6 @@ const firstListItem = document.querySelector(".list-items");
 console.log(firstListItem.innerText)
 console.log(firstListItem.innerHTML)
 console.log(firstListItem.textContent)
+
+// Modifying Attributes and Classes
+li.setAttribute("id", "main-heading")
